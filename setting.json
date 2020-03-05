@@ -1,0 +1,140 @@
+{
+  "veture.validation.template": false,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "tslint.typeCheck": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "eslint.autoFixOnSave": true,
+  // Is git enabled
+  "git.enabled": true,
+  // Path to the git executable
+  "git.path": "C:\\Program Files\\Git\bin\\sh.exe",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.enableAllHovers": true,
+  "debug.inlineValues": true,
+  "scm.alwaysShowActions": true,
+  "vim.easymotionMarkerFontSize": "12",
+  "editor.find.autoFindInSelection": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    120
+  ],
+  "editor.wordWrap": "on",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "edge": "html",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "http.proxy": "",
+  "http.proxyStrictSSL": false,
+  "https.proxy": "",
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Source code pro'",
+  "files.autoSave": "on",
+  "cSpell.language": "en,en-GB,en-US",
+  "cSpell.enabledLanguageIds": [
+    "Log",
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pub",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yml"
+  ],
+  "editor.formatOnSave": false,
+  "team.showWelcomeMessage": false,
+  "vsicons.projectDetection.autoReload": true,
+  "cSpell.userWords": [
+    "cannot",
+    "coverage",
+    "d",
+    "end",
+    "file",
+    "fopen",
+    "fp",
+    "fprintf",
+    "getline",
+    "goto",
+    "if",
+    "keyword",
+    "keywordfile",
+    "len",
+    "line",
+    "local",
+    "n",
+    "null",
+    "number",
+    "open",
+    "printf",
+    "protractor",
+    "rb",
+    "read",
+    "s",
+    "stderr",
+    "vtdicfile",
+    "while"
+  ],
+  "[yml]": {},
+  "editor.formatOnPaste": true,
+  "editor.tabCompletion": true,
+  "editor.cursorBlinking": "phase",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
+  "markdown.preview.fontSize": 13,
+  "debug.console.fontSize": 13,
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnType": true,
+  "editor.autoClosingOvertype": "always",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.enableFiletypes": [
+    "vue",
+    "yaml"
+  ],
+}

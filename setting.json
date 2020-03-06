@@ -41,9 +41,9 @@
     "vue-html": "html",
     "vue": "html"
   },
-  "http.proxy": "",
+  "http.proxy": "http://haidt:Abcd1234@10.116.16.40:3128",
   "http.proxyStrictSSL": false,
-  "https.proxy": "",
+  "https.proxy": "http://haidt:Abcd1234@10.116.16.40:3128",
   "window.zoomLevel": 0,
   "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Source code pro'",
   "files.autoSave": "on",
@@ -137,4 +137,5 @@
     "vue",
     "yaml"
   ],
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\sh.exe"
 }

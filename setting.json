@@ -41,9 +41,9 @@
     "vue-html": "html",
     "vue": "html"
   },
-  "http.proxy": "http://haidt:Abcd1234@10.116.16.40:3128",
+  "http.proxy": "",
   "http.proxyStrictSSL": false,
-  "https.proxy": "http://haidt:Abcd1234@10.116.16.40:3128",
+  "https.proxy": "",
   "window.zoomLevel": 0,
   "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Source code pro'",
   "files.autoSave": "on",

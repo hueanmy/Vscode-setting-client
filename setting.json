@@ -23,6 +23,7 @@
   "git.enabled": true,
   // Path to the git executable
   "git.path": "C:\\Program Files\\Git\bin\\sh.exe",
+  // "terminal.integrated.shell.windows": "C:\\cygwin64\\Cygwin.bat",
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "debug.allowBreakpointsEverywhere": true,
   "debug.enableAllHovers": true,
@@ -31,9 +32,7 @@
   "vim.easymotionMarkerFontSize": "12",
   "editor.find.autoFindInSelection": true,
   "editor.tabSize": 2,
-  "editor.rulers": [
-    120
-  ],
+  "editor.rulers": [120],
   "editor.wordWrap": "on",
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.includeLanguages": {
@@ -41,10 +40,14 @@
     "vue-html": "html",
     "vue": "html"
   },
-  "http.proxy": "",
-  "http.proxyStrictSSL": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "https.proxy": "",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
   "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Source code pro'",
   "files.autoSave": "on",
   "cSpell.language": "en,en-GB,en-US",
@@ -82,6 +85,7 @@
   "vsicons.projectDetection.autoReload": true,
   "cSpell.userWords": [
     "cannot",
+    "combobox",
     "coverage",
     "d",
     "end",
@@ -114,16 +118,15 @@
   "editor.formatOnPaste": true,
   "editor.tabCompletion": true,
   "editor.cursorBlinking": "phase",
-  "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 13,
+  "editor.fontSize": 15,
   "markdown.preview.fontSize": 13,
   "debug.console.fontSize": 13,
-  "workbench.colorTheme": "Monokai",
-  "workbench.iconTheme": "material-icon-theme",
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.quickSuggestions": {
     "strings": true
   },
+  "rufo.exe": "rufo", // can be an absolute path
+  "rufo.useBundler": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.startupEditor": "newUntitledFile",
   "git.enableSmartCommit": true,
@@ -133,9 +136,30 @@
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.enableFiletypes": [
-    "vue",
-    "yaml"
-  ],
-  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\sh.exe"
+  "cSpell.enableFiletypes": ["vue", "yaml"],
+  "http.proxyAuthorization": null,
+  "http.proxy": "http://mailt:ong1234*@10.116.16.12:3128/",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.kernelProviderAssociations": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rufo.exe": "rufo",  // can be an absolute path
+  "rufo.useBundler": false,
+  "http.proxySupport": "on",
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "editor.fontLigatures": null,
+  "ruby.useBundler": true, //run non-lint commands with bundle exec
+  "ruby.useLanguageServer": true, // use the internal language server (see below)
+  "ruby.lint": {
+    "rubocop": {
+      "useBundler": true // enable rubocop via bundler
+    },
+    "reek": {
+      "useBundler": true // enable reek via bundler
+    }
+  },
+  "ruby.format": "rubocop" // use rubocop for formatting
 }

@@ -1,0 +1,5 @@
+a.filter(item => {
+    var foundItem = item[Object.getOwnPropertyNames(item)].filter(eachItem => eachItem.name.includes('a'));
+    item[Object.getOwnPropertyNames(item)] = foundItem;
+    return foundItem.length > 0;
+});
